@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Holi</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            width: 100%;
+            height: 100vh;
+            background: url('5012506.jpg') no-repeat center center/cover;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            position: relative;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.4); /* Dark overlay for text visibility */
+        }
+
+        .content {
+            position: relative;
+            z-index: 1;
+            color: black;
+        }
+        pre{
+          color: red;
+          font-size: 20px;
+          font-weight: bold;
+          background: rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            font-size: 60px;
+            color: darkblue;
+            font-weight: bold;
+            text-transform: uppercase;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bolder;
+            color: pink;
+            background:gray;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: 0.3s ease;
+        }
+
+        .btn:hover {
+            background: #ff8c42;
+        }
+
+        /* Animation */
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: translateY(-20px); }
+            100% { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 40px;
+            }
+            .btn {
+                font-size: 18px;
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="overlay"></div>
+    
+
+
+    <div class="content">
+                <pre>
+      🌸✨ Wishing You a Colorful & Joyous Holi! ✨🌸
+
+        May this festival of colors 
+        bring happiness, prosperity, 
+        and endless joy into your 
+        life! 🎨🎉
+
+        Happy Holi! 🌈💖
+
+        Best Wishes From
+        Aditya
+
+</pre>
+      
+      
+        <h1>Happy Holi! 🎨🎉</h1>
+        <a href="holi.html" class="btn">Enter Playground ➡️</a>
+    </div>
+
+</body>
+</html>
